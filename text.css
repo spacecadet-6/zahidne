@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains%20Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+.hero__title-content{
+    display: flex;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -3%;
+    font-size: 232px;
+    font-family: 'Manrope';
+     background: linear-gradient(
+    90deg,
+    #F4F4F4 0%,
+    #FFFFFF 75%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  align-items: center;
+}
+
+.hero__title-content span{
+    text-align: end;
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: -2%;
+    font-weight: 600;
+ background: linear-gradient(
+    90deg,
+    #F4F4F4 0%,
+    #FFFFFF 75%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero__block-title{
+    font-family: 'Manrope';
+    font-size: 32px;
+    color: #051B35;
+    line-height: 1.2;
+    letter-spacing: -2%;
+    font-weight: 600;
+}
+
+.hero__block-subtitle{
+    margin-top: 8px;
+    color: #626262;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'Manrope';
+}
+
+.product__title{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -2%;
+    color: #051B35;
+}
+
+.product__block-title{
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #626262;
+}
+
+.product__block-number{
+    color: #C2C2C2;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.product__block-name{
+    color: #051B35;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.4;
+    max-width: 566px;
+    width: 100%;
+}
+
+.product__block-subtitle{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #C2C2C2;
+}
+
+.about__block-title{
+    margin-top: 42px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.4;
+    color: #051B35;
+}
+
+.about__block-text{
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #626262;
+}
+
+.tech__title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.2;
+    letter-spacing: -2%;
+    color: #051B35;
+}
+
+.tech__text-title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: -3%;
+    color: #051B35;
+}
+
+.activities__title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -4%;
+    margin-top: 16px;
+    color: #051B35;
+}
+
+.footer__copyright{
+    color: #626262;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    max-width: 170px;
+    width: 100%;
+}
