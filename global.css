@@ -357,6 +357,11 @@ body{
         top: auto;
         bottom: 130px;
     }
+
+         .header__container{
+        padding: 16px 52px;
+    }
+
 }
 
 
@@ -469,6 +474,32 @@ body{
         padding: 40px 16px;
     }
 
+    .logo__img{
+        max-width: 42.65px;
+        max-height: 24.04px;
+    }
+
+     .logo__img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo__text{
+        font-size: 16px;
+        letter-spacing: -4%;
+        line-height: 1.2;
+    }
+
+    .header__container{
+        padding: 8px 16px;
+    }
+
+    .header__burger svg{
+        transform: scale(1);
+    }
+
+
+
      .footer__background{
         top: auto;
         bottom: 241px;
@@ -502,6 +533,31 @@ body{
         text-align: center;
     }
 
+    .footer__title{
+        font-size: 32px;
+        margin-top: -6px;
+    }
+
+    .contact__button--footer{
+        margin-top: 24px;
+    }
+
+    .footer__bottom{
+        margin-top: 80px;
+    }
+
+    .footer__bottom-line{
+        margin-top: 24px;
+    }
+
+    .footer__bottom-copyright{
+        margin-top: 12px;
+    }
+
+    .footer__subtitle{
+        margin-top: 12px;
+    }
+
 }
 
 
@@ -509,7 +565,7 @@ body{
 
    .footer__background{
         top: auto;
-        bottom: 270px;
+        bottom: 261px;
     }
 
 }
