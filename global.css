@@ -463,12 +463,40 @@ body{
     }
 }
 
-@media (max-width: 501px){
+@media (max-width: 520px){
+
+    .container {
+        padding: 40px 16px;
+    }
 
      .footer__background{
         top: auto;
-        bottom: 278px;
+        bottom: 241px;
     }
+
+     .footer__content{
+        padding: 57px 16px 0;
+    }
+
+    .footer__bottom-content{
+        padding: 16px;
+    }
+
+    .footer__links{
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .footer__bottom-content--top{
+        gap: 24px;
+    }
+
+    .footer__bottom-copyright{
+        gap: 8px;
+    }
+}
+
+@media (max-width: 501px){
 
     .footer_team{
         text-align: center;
@@ -476,11 +504,12 @@ body{
 
 }
 
-@media (max-width: 436px){
 
-    .footer__background{
+@media (max-width: 503px){
+
+   .footer__background{
         top: auto;
-        bottom: 330px;
+        bottom: 270px;
     }
 
 }

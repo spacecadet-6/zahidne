@@ -47,6 +47,16 @@
     width: 100%;
 }
 
+.hero__img--mobile{
+    display: none;
+    position: absolute;
+    overflow: hidden;
+}
+
+.hero__img--mobile img{
+    width: 100%;
+}
+
 .hero__content{
     margin-top: 292px;
     display: flex;
@@ -721,9 +731,6 @@
 }
 
 @media (max-width: 879px){
-    .container{
-        padding: 44px 52px;
-    }
     .hero__container{
         padding: 44px 45px 34px 52px;
     }
@@ -753,6 +760,11 @@
 }
 
 @media (max-width: 723px){
+
+    .hero__content{
+        margin-top: 192px;
+    }
+    
     .product__block-img img{
     width: 100%;
     }
@@ -768,6 +780,8 @@
     .product__block-footer{
         padding-right: 20px;
     }
+
+    
 }
 
 @media (max-width: 669px){
@@ -816,4 +830,227 @@
     }
 
 
+}
+
+@media (max-width: 520px){
+
+    .hero__left-contact{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product__button{
+        max-width: 343px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero__title-content{
+        margin-top: 7px;
+        font-size: 52px;
+        line-height: 1;
+    }
+
+    .hero__title-content span{
+        font-size: 16px;
+        line-height: 0.98;
+    }
+
+    .hero{
+        overflow: hidden;
+    }
+    .hero__img{
+        display: none;
+    }
+
+    .hero__container{
+        padding: 20px 16px 64px;
+        overflow: hidden;
+    }
+
+    .hero__img--mobile{
+        display: block;
+        top: 100px;
+        z-index: -2;
+        left: 0;
+    }
+
+    .title__img-right svg {
+        height: 86px;
+    }
+
+    .title__img-left svg {
+        height: 86px;
+    }
+
+    .hero__img{
+        padding: 0;
+    }
+
+
+    .product__content {
+        grid-template-columns: 1fr;
+        grid-template-rows: none;
+        grid-auto-rows: auto;
+        row-gap: 0;
+        align-content: start;
+    }
+
+    .product__block:nth-child(1) {
+    max-height: 428px;
+}
+
+.product__block:nth-child(2) {
+    height: 410px;
+    padding-right: 0;
+}
+
+.product__block:nth-child(2) .product__block-header{
+    padding-right: 16px;
+}
+
+.product__block:nth-child(2) .product__block-footer{
+    padding-right: 16px;
+}
+
+.product__block:nth-child(3) {
+    height: 460px;
+    padding-right: 0;
+}
+
+.product__block:nth-child(3) .product__block-header{
+    padding-right: 16px;
+}
+
+.product__block:nth-child(3) .product__block-footer{
+    padding-right: 16px;
+}
+
+.product__block:nth-child(3) .product__block-img{
+    max-height: 183px;
+}
+
+.product__block:nth-child(4) {
+    max-height: 438px;
+}
+
+.product__block:nth-child(4) .product__block-img{
+    max-height: 161px;
+}
+
+
+.product__block{
+        padding: 16px;
+        gap: 32px;
+        justify-content: normal;
+ }
+
+ .product__content .product__block:first-child .product__block-img {
+    padding-right: 16px;
+}
+    .product__content .product__block:last-child .product__block-img {
+    padding-right: 16px;
+}
+
+    .product__header{
+        gap: 8px;
+        align-items: start;
+    }
+
+    .product__title{
+        font-size: 32px;
+    }
+
+    .product__block-name{
+        font-size: 20px;
+    }
+
+    .product__block-subtitle{
+        max-height: 120px;
+        margin-top: 12px;
+    }
+
+    .bug{
+        margin-left: -17px;
+    }
+
+    .about__title h2{
+        font-size: 32px;
+    }
+
+    .about__header{
+        gap: 8px;
+    }
+
+    .about__subtitle{
+        font-size: 16px;
+    }
+
+    .about__content{
+        margin-top: 32px;
+    }
+
+    .about__block-text{
+        margin-top: 12px;
+    }
+
+    .about__block-title{
+        margin-top: 16px;
+    }
+
+    .about__block-title{
+        font-size: 20px;
+    }
+    
+    .tech__header{
+        align-items: start;
+        gap: 8px;
+    }
+
+    .tech__title{
+        font-size: 32px;
+    }
+
+    .tech__block{
+        margin-left: 16px;
+        margin-right: 16px;
+        gap: 16px;
+    }
+
+    .tech__line{
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .activities{
+        gap: 32px;
+    }
+
+    .activities__title{
+        font-size: 32px;
+        margin-top: 8px;
+    }
+
+    .advantages__title h2{
+        font-size: 32px;
+        margin-top: 8px;
+    }
+
+    .advantages__content{
+        margin-top: 32px;
+    }
+
+    .main__background-footer{
+        margin-top: 0;
+    }
+
+   
+
+    .contact__button{
+        max-width: 343px;
+        width: 100%;
+        gap: 12px;
+        justify-content: center;
+    }
 }
