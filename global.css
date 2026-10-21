@@ -1,6 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains%20Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 body{
     font-family: 'Manrope';
 }
+
 
 .header{
     position: relative;
@@ -341,6 +347,8 @@ body{
     text-decoration: underline;
 }
 
+
+
 @media (max-width: 1124px){
     .footer__logo{
         max-width: fit-content;
@@ -360,6 +368,10 @@ body{
 
          .header__container{
         padding: 16px 52px;
+    }
+
+      .footer__img {
+        left: 482px;
     }
 
 }

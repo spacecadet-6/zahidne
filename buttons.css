@@ -78,3 +78,41 @@
     color: #FFFFFF;
     background-color: #051B35;
 }
+
+.hero__button{
+    margin-top: 39px;
+    font-family: 'Manrope';
+    font-size: 18px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    max-width: 238px;
+    width: 100%;
+    display: flex;
+    padding: 12px 24px;
+    border-radius: 100px;
+    background: #051B35;
+    box-shadow:
+    inset -4px 0 4.9px 0 #FFE241,
+    inset -12px 0 10px 0 #D9425A,
+    inset 4px 0 4.9px 0 #00CFFF,
+    inset 12px 0 6.7px 0 #0534D1;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+    letter-spacing: 1%;
+}
+
+.hero__button div{
+    line-height: 0;
+}
+
+.hero__button:hover{
+     background: #B70000;
+  box-shadow:
+    inset -4px 0 4.9px 0 #FFE241,
+    inset -12px 0 10px 0 #D9425A;
+}
