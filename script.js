@@ -9,3 +9,9 @@ burgerButton.addEventListener('click', () => {
 burgerClose.addEventListener('click', () => {
     burgerMenu.classList.remove('active');
 });
+
+document.querySelectorAll('.specs__block').forEach(block => {
+    block.addEventListener('click', () => {
+        block.classList.toggle('active');
+    });
+});
