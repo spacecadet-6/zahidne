@@ -16,3 +16,35 @@
     letter-spacing: -4%;
     font-weight: 500;
 }
+
+
+.other__block-title{
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #626262;
+}
+
+.other__block-number{
+    color: #C2C2C2;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.other__block-name{
+    color: #051B35;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.4;
+    max-width: 566px;
+    width: 100%;
+    margin-top: -4px;
+}
+
+.other__block-subtitle{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #C2C2C2;
+}

@@ -276,7 +276,7 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
-    transition: max-height 0.3s ease-out;
+    transition: max-height 0.3s ease-in-out;
 }
 
 .specs__block-line{
@@ -306,3 +306,372 @@
     color: #626262;
 }
 
+.special{
+    margin-top: -20px;
+    display: flex;
+    gap: 16px;
+}
+
+.special__title{
+    max-width: 608px;
+    width: 100%;
+}
+
+.special__title h2{
+    margin-top: 16px;
+    color: #051B35;
+    font-size: 48px;
+    line-height: 1.2;
+    letter-spacing: -2%;
+}
+
+.special__content{
+    max-width:608px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.special__content-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px #C2C2C2 solid;
+    line-height: 0;
+}
+
+.special__content-header svg{
+    margin-top: -1px;
+}
+
+.special__content-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px #C2C2C2 solid;
+    line-height: 0;
+}
+
+.special__content-footer svg{
+    margin-bottom: -1px;
+}
+
+.special__content-list{
+    max-width: 560px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 1px;
+}
+
+.special__list-item{
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+
+.special__item-dot{
+    width: 4px;
+    height: 4px;
+    background-color: #B70000;
+}
+
+.special__list-item span{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #626262;
+}
+
+.gallery{
+    overflow: visible;
+}
+
+.gallery__slider{
+    display: flex;
+    gap: 16px;
+    margin-top: 9px;
+    width: calc(100% + 104px);
+}
+
+.gallery__text{
+    margin-top: 16px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #626262;
+}
+
+.gallery__footer{
+    margin-top: 16px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery__date{
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 400;
+    color: #C2C2C2;
+}
+
+.gallery__arrows{
+    line-height: 0;
+    display: flex;
+    gap: 8px;
+}
+
+.gallery__arrows button{
+    line-height: 0;
+}
+
+.gallery__slider-item--one {
+    width: 501.74px;
+}
+
+.gallery__slider-item--two {
+    width: 480px;
+}
+
+.gallery__slider-item--three {
+    width: 834.78px;
+}
+
+.gallery__slider-item {
+    height: 360px;
+    flex-shrink: 0;
+}
+
+.gallery__slider-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.partners__title{
+    margin-top: -7px;
+}
+
+.partners__title h2{
+    font-size: 48px;
+    color: #051B35;
+    line-height: 1.2;
+    letter-spacing: -2%;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.partners__content{
+    margin-top: 40px;
+    display: flex;
+}
+
+.partners__img{
+    display: none;
+    max-width: 935px;
+    width: 100%;
+    max-height: 633px;
+}
+
+.partners__img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.partners__img.partners__img-active {
+    display: block;
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.stryi__dot{
+    width: 9px;
+    height: 9px;
+    background-color: #111111;
+    border-radius: 100px;
+    box-shadow: 0 0 6.32px 0 #111111;
+}
+
+.stryi__logo{
+    display: flex;
+    gap: 12px;
+    height: 24px;
+    align-items: center;
+}
+
+.partners__content-list{
+    max-width: 299px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 113.66px;
+}
+
+.partners__list-item{
+    max-width: 299px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -1px;
+    cursor: pointer;
+}
+
+.partners__item-header{
+    display: flex;
+    max-width: 299px;
+    width: 100%;
+    justify-content: end;
+    border-top: 1px solid #C2C2C2;
+}
+
+.partners__item-header div{
+    margin-top: -1px;
+    line-height: 0;
+}
+
+.partners__item-footer{
+    display: flex;
+    max-width: 299px;
+    width: 100%;
+   justify-content: end;
+   border-bottom: 1px solid #C2C2C2;
+}
+
+.partners__item-footer div{
+    margin-bottom: -1px;
+    line-height: 0;
+}
+
+.gemfan__logo{
+    height: 32px;
+    margin-top: -3px;
+}
+
+.cspower__logo{
+    line-height: 0;
+}
+
+.partners__list-item:last-child .partners__item-footer div {
+    line-height: 0;
+    margin-bottom: -1px;
+}
+
+
+.partners__list-item--active {
+    background-color: #051B35;
+}
+
+.partners__list-item--active svg [fill="#111111"]{
+    fill: #FFFFFF;
+}
+
+
+.partners__list-item--stryi.partners__list-item--active .stryi__dot {
+    background-color: #00E797;
+}
+
+.partners__list-item--stryi.partners__list-item--active .stryi__logo div {
+    filter: drop-shadow(0 0 6.32px #00E797);
+}
+
+.other__title{
+    margin-top: -8px;
+}
+
+.other__title h2{
+    color: #051B35;
+    font-size: 48px;
+    line-height: 1.2;
+    letter-spacing: -2%;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+
+.other__content{
+    display: flex;
+    margin-top: 40px;
+}
+
+.other__block {
+    max-width: 616px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: #C2C2C2 1px solid;
+    padding: 24px 23px;
+    justify-content: space-between;
+    transition: all 0.5s ease-out;
+    gap: 16px;
+}
+
+.other__block-header {
+    max-width: 568px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.other__block-img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.bug {
+    margin-left: -24px;
+}
+
+.other__block-subtitle {
+    max-height: 0px;
+    overflow: hidden;
+}
+
+.other__block:hover {
+    background-color: #051B35;
+}
+
+
+.other__block:hover .other__block-name {
+    color: #FFFFFF;
+}
+
+.other__block:hover .other__block-title {
+    color: #FFFFFF;
+}
+
+.other__block:hover .other__block-subtitle {
+    max-height: 72px;
+    margin-top: 16px;
+}
+
+.other__block-bottom:hover .other__block-footer {
+    margin-top: -72px;
+}
+
+
+.main__background{
+  margin-top: -23px;
+  height: 23px;
+ 
+}
