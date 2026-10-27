@@ -348,6 +348,16 @@ body{
 }
 
 
+.footer__copyright{
+    color: #626262;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    max-width: 170px;
+    width: 100%;
+}
+
+
 
 @media (max-width: 1124px){
     .footer__logo{
