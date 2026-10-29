@@ -1,0 +1,393 @@
+.main{
+    display: flex;
+    padding-bottom: 70px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    max-width: 591.5px;
+    width: 100%;
+    justify-content: space-between;
+    border-top: 1px solid #C2C2C2;
+    border-right: 1px solid #C2C2C2;
+    border-bottom: 1px solid #C2C2C2;;
+
+}
+
+.info__title{
+    padding: 24px;
+    position: relative;
+}
+
+.info__title::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 24px;
+    background-color: #C2C2C2;
+}
+
+.info__title h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -2%;
+    color: #051B35;
+}
+
+.info__subtitle{
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #626262;
+}
+
+.info__mail{
+    padding: 24px;
+    width: 100%;
+    border-top: 1px solid #C2C2C2;
+    border-bottom: 1px solid #C2C2C2;
+    position: relative;
+}
+
+.info__mail::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 24px;
+    background-color: #C2C2C2;
+}
+
+.info__mail::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 1px;
+    height: 24px;
+    background-color: #C2C2C2;
+}
+
+.info__mail-title{
+    display: flex;
+     justify-content: space-between;
+     color: #051B35;
+     font-weight: 600;
+     font-size: 18px;
+     line-height: 1.5;
+}
+
+.info__mail-subtitle{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #626262;
+}
+
+.info__phone{
+    padding: 24px;
+    max-width: 591.5px;
+    width: 100%;
+    position: relative;
+}
+
+.info__phone::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 24px;
+    background-color: #C2C2C2;
+}
+
+.info__phone::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 1px;
+    height: 24px;
+    background-color: #C2C2C2;
+}
+
+
+
+.info__phone-title{
+    display: flex;
+     justify-content: space-between;
+     color: #051B35;
+     font-weight: 600;
+     font-size: 18px;
+     line-height: 1.5;
+}
+
+.info__phone-subtitle{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #626262;
+}
+
+
+.contact__form{
+    max-width: 640.5px;
+    width: 100%;
+    padding: 24px;
+    position: relative;
+    border-top: 1px solid #C2C2C2;
+    border-bottom: 1px solid #C2C2C2;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact__form::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 24px;
+    background-color: #C2C2C2;
+}
+
+.contact__form::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 1px;
+    height: 24px;
+    background-color: #C2C2C2;
+}
+
+.contact__field{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__field label{
+    font-size: 13px;
+    color: #051B35;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.contact__form input{
+    height: 48px;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #C2C2C2;
+}
+
+
+.contact__form input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #C2C2C2;
+}
+
+.contact__field--message textarea{
+    height: 96px;
+    padding-top: 62px;
+    padding-bottom: 12px;
+    border: none;
+    border-bottom: 1px solid #C2C2C2;
+     overflow-y: hidden;
+    resize: none;
+}
+
+.contact__field--message textarea::placeholder{
+    color: #C2C2C2;
+    justify-self: end;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.contact__checkbox{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 32px;
+}
+
+.contact__checkbox input{
+    align-self: flex-start;
+    line-height: 0;
+    height: 20px;
+    border: 1px solid #c2c2c2;
+    border-radius: 0;
+    background: transparent;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.contact__checkbox span{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #626262;
+    
+}
+
+.contact__checkbox input:checked {
+    background: #051B35;
+    border-color: #051B35;
+}
+
+.contact__line{
+    height: 1px;
+    background: repeating-linear-gradient(
+        to right,
+        #D9D9D9 0px,
+        #D9D9D9 16px,
+        transparent 16px,
+        transparent 32px
+    );
+}
+
+.contact__button{
+    max-width: 175px;
+
+}
+
+.footer__bottom{
+    margin-top: 0;
+}
+
+.contact__button-header{
+    background-color: #051B35;
+    color: #FFFFFF;
+}
+
+.contact__language{
+    color: #051B35;
+}
+
+.header__links{
+    color: #051B35;
+}
+
+.logo__text{
+    color: #051B35;
+}
+
+.header__burger svg path{
+    fill: #051B35;
+}
+
+.footer{
+    background-color: #FFFFFF;
+}
+
+
+.footer__background{
+    position: relative;
+    top: auto;
+    bottom: auto;
+
+}
+
+@media (max-width:951px){
+    .main{
+        flex-wrap: wrap;
+    }
+
+    .info{
+        max-width: 800px;
+        border-left: 1px solid #C2C2C2;
+    }
+
+    .info__title::before{
+        display: none;
+    }
+
+    .info__mail::before{
+        display: none;
+    }
+
+    .info__phone::before{
+        display: none;
+    }
+
+    .info__mail::after{
+        display: none;
+    }
+
+    .info__phone::after{
+        display: none;
+    }
+
+    .contact__form{
+        max-width: 800px;
+        border-right: #C2C2C2 1px solid;
+        border-left: #C2C2C2 1px solid;
+    }
+
+    .contact__form::before{
+       display: none;
+    }
+
+    .contact__form::after{
+       display: none;
+    }
+    
+}
+
+@media (max-width:560px){
+
+    .main{
+        padding-bottom: 20px;
+    }
+
+    .info__title h1{
+        font-size: 32px;
+    }
+
+    .info__subtitle{
+        font-size: 16px;
+    }
+
+    .info__title{
+        padding: 16px;
+    }
+
+    .info__subtitle{
+        margin-top: 12px;
+    }
+
+    .info__mail{
+        padding: 16px;
+    }
+
+    .info__phone{
+        padding: 16px;
+    }
+
+    .info__mail-title p{
+        font-size: 16px;
+    }
+
+    .info__phone-title p{
+        font-size: 16px;
+    }
+
+    .contact__form{
+        padding: 16px;
+        gap: 16px;
+    }
+
+    .contact__checkbox{
+        height: 64px;
+    }
+}
