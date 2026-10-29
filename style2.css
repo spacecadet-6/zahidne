@@ -268,6 +268,14 @@
     display: block;
 }
 
+.specs__block.active .specs__block-title {
+    color: #B70000;
+}
+
+.specs__block-title {
+    transition: color 0.3s ease;
+}
+
 .specs__block-hidden{
     max-height: 0;
     max-width: 560px;
